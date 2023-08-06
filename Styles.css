@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap");
+* {
+  font-family: "Ysabeau SC", sans-serif;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+.bannerBgImage {
+  height: 100vh;
+  background: url("../Images/back.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.bannerText {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+.bannerTitle {
+  font-size: 3rem;
+}
+.bannerDescription {
+  font-size: 1.0rem;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 255, 0.3),
+    0 6px 20px 2px rgba(0, 0, 255, 0.3);
+}
+
+#footer {
+  color: aliceblue;
+}
+#footer a {
+  color: #fff;
+}
+.image-container {
+  display: inline-block;
+}
+
+.image-container img:hover {
+  filter: drop-shadow(0 0 10px rgba(30, 7, 207, 1));
+}
+#form-data input:hover,
+#form-data textarea:hover {
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 255, 0.3),
+    0 6px 20px 2px rgba(0, 0, 255, 0.3);
+}
+.navbar {
+  width: 100vw;
+}
+/* Dark Mode */
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.bannerBgImage {
+  background-color: #222;
+}
+
+.bannerTitle,
+.bannerDescription {
+  color: #f9f4f4;
+}
+
+#about .right {
+  background-color: #222;
+  color: #fff;
+}
+
+.card-img {
+  color: black;
+}
+.card-title,
+.card-text {
+  color: rgb(247, 242, 242);
+}
+#internships .card,
+#certifications .card {
+  background-color: #222;
+  color: #faf7f7;
+}
+
+.form-control,
+.form-label,
+.form-text {
+  color: #fff;
+}
+
+#footer {
+  background-color: #333;
+  color: #fff;
+}
+#form-data input,
+#form-data textarea {
+  background-color: #333;
+  color: #fff;
+}
+#form-data input::placeholder,
+#form-data textarea::placeholder {
+  color: #fff;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+
+.btn:active {
+  scale: 0.92;
+}
+
+.btn:hover {
+  background: rgb(2, 29, 78);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 29, 78, 0.681) 0%,
+    rgba(31, 215, 232, 0.873) 60%
+  );
+  color: rgb(4, 4, 38);
+}
+.cards .card:hover {
+  transform: scale(1.1, 1.1);
+}
